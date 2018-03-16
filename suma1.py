@@ -1,5 +1,7 @@
+#!/usr/bin/env python3
 import numpy as np
 import scipy.io as sio
+import os
 
 def suma1(filename):
     dic=sio.loadmat(filename)
